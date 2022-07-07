@@ -1,10 +1,11 @@
 import React, { FC } from "react";
+import styles from "styles/Hero.module.css";
 
 type Props = {};
 
 const Hero: FC<Props> = (props) => {
   return (
-    <div>
+    <div className={styles.container}>
       {/* Overlay */}
       <div />
       <div>
