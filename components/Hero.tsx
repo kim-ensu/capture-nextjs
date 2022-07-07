@@ -7,7 +7,7 @@ const Hero: FC<Props> = (props) => {
   return (
     <div className={styles.container}>
       {/* Overlay */}
-      <div />
+      <div className={styles.overlay} />
       <div>
         <h1>Heading</h1>
         <p>Message</p>
