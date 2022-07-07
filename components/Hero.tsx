@@ -8,10 +8,10 @@ const Hero: FC<Props> = (props) => {
     <div className={styles.container}>
       {/* Overlay */}
       <div className={styles.overlay} />
-      <div>
-        <h1>Heading</h1>
-        <p>Message</p>
-        <button>Book</button>
+      <div className={styles.content}>
+        <h1 className={styles.heading}>Heading</h1>
+        <p className={styles.text}>Message</p>
+        <button className={styles.button}>Book</button>
       </div>
     </div>
   );
